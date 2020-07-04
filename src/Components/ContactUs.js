@@ -1,5 +1,6 @@
+import React, { Component }  from 'react';
 import { Form, Input, InputNumber, Button, Select } from "antd";
-import style from "../styles/ContactUs.module.css";
+import style from "./ContactUs.css";
 const { Option } = Select;
 
 const layout = {

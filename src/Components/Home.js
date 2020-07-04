@@ -7,15 +7,16 @@ import {
   TwitterOutlined,
   InstagramOutlined,
 } from "@ant-design/icons";
-const { Header, Slider, Content } = Layout;
+
 import Title from "antd/lib/typography/Title";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlusCircle } from "@fortawesome/free-solid-svg-icons";
-import CarouselComponent from "../components/CarouselComponent";
-import GoogleMap from "../components/googleMap";
-import ContactUs from "../components/ContactUs";
-import Footer from "../components/footer";
-//import "../styles/home.css";
+// import { faPlusCircle } from "@fontawesome/free-solid-svg-icons";
+import CarouselComponent from "./CarouselComponent";
+//import GoogleMap from "./googleMap";
+import ContactUs from "./ContactUs";
+import Footer from "./footer";
+import "./home.css"
+const { Header, Slider, Content } = Layout;
 
 export default function home() {
   return (
@@ -298,7 +299,7 @@ fontSize: "15px"}}> delivery
                     <Row>
                       <Col>
                         <FontAwesomeIcon
-                          icon={faPlusCircle}
+                         // icon={faPlusCircle}
                           style={{
                             color: "#74cf4e",
                             /* width: 151%; */
@@ -317,7 +318,7 @@ fontSize: "15px"}}> delivery
                     <Row>
                       <Col>
                         <FontAwesomeIcon
-                          icon={faPlusCircle}
+                          //icon={faPlusCircle}
                           style={{
                             color: "#74cf4e",
                             /* width: 151%; */
@@ -337,7 +338,7 @@ fontSize: "15px"}}> delivery
                     <Row>
                       <Col>
                         <FontAwesomeIcon
-                          icon={faPlusCircle}
+                          //icon={faPlusCircle}
                           style={{
                             color: "#74cf4e",
                             /* width: 151%; */
@@ -558,14 +559,14 @@ fontSize: "15px"}}> delivery
       </Layout>
       <Layout style={{ position: "relative", height: "813px" }}>
         <Row style={{display:"block"}}>
-          <Row style={{ width: "-webkit-fill-available" }}>
+          {/* <Row style={{ width: "-webkit-fill-available" }}>
             <h1 className="plans" style={{ marginLeft: "93px" }}>
               Contact us
             </h1>
-          </Row>
-          <Row className="formBg">
+          </Row> */}
+          {/* <Row className="formBg">
             <ContactUs />
-          </Row>
+          </Row> */}
         </Row>
         <Row
           style={{
@@ -575,7 +576,10 @@ fontSize: "15px"}}> delivery
             top: "-278px",
           }}
         >
-          <GoogleMap style={{ position: "absolute" }} />
+          <h1>Coming soon
+
+          </h1>
+          {/* <GoogleMap style={{ position: "absolute" }} /> */}
         </Row>
       </Layout>
       <Footer />

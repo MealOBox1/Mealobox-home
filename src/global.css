@@ -30,11 +30,11 @@ img {
   max-width: 100%;
   display: block;
 }
-
-/* .ant-layout {
+.ant-layout {
   background: transparent;
 }
 
+/* 
 .ant-menu-horizontal > .ant-menu-item:hover,
 .ant-menu-horizontal > .ant-menu-submenu:hover,
 .ant-menu-horizontal > .ant-menu-item-active,

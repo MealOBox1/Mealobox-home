@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout, Avatar, Menu, Button, Row, Col, Carousel, Icon } from "antd";
 import { FacebookOutlined, TwitterOutlined } from "@ant-design/icons";
-import style from "../styles/footer.module.css";
+import style from "./footer.css";
 
 export default function footer() {
   return (
