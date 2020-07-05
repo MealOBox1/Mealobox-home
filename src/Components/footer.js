@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout, Avatar, Menu, Button, Row, Col, Carousel, Icon } from "antd";
-import { FacebookOutlined, TwitterOutlined } from "@ant-design/icons";
+import { FacebookOutlined, TwitterOutlined, LinkedinOutlined, InstagramOutlined } from "@ant-design/icons";
 import style from "./footer.css";
 
 export default function footer() {
@@ -28,31 +28,41 @@ export default function footer() {
           </div>
         </Col>
         <Col span={5}>
-          <h2 className={style.h2}>Contact</h2>
-          <ul className={style.list}>
-            <li>Lorem ipsum #239,trcity plaza</li>
-            <li>peermuchalla. zirakpur,mohali</li>
-            <li>Telephone: +91 99999-88888</li>
-            <li>E-mail: mail@mealbox.com</li>
+          <h2 className="h2">Contact</h2>
+          <ul className="list">
+            <li> <a href="#">Delhi </a> </li>
+            <li> <a href="#">Telephone: +91 96960 62198 </a> </li>
+            <li> <a href="mealobox@gmail.com">E-mail: mealobox@gmail.com</a> </li>
           </ul>
         </Col>
         <Col span={5}>
-          <h2 className={style.h2}>Menu</h2>
-          <ul className={style.list}>
-            <li>About us</li>
-            <li>Our Food</li>
-            <li>Plans</li>
-            <li>Contact us</li>
+          <h2 className="h2">Menu</h2>
+          <ul className="list">
+            <li> <a href="#">About us </a> </li>
+            <li> <a href="#">Our Food </a> </li>
+            <li> <a href="#">Plans </a> </li>
+            <li> <a href="#">Contact us </a> </li>
           </ul>
         </Col>
         <Col span={5}>
-          <h2 className={style.h2}>Follow Us</h2>
-          <ul className={style.list2}>
-            <li>
+          <h2 className="h2">Follow Us</h2>
+          <ul className="list2">
+            <li> <a href="https://www.facebook.com/dmealobox">
               <FacebookOutlined />
+              </a>
+            </li>
+            <li>  <a href=" https://www.twitter.com/mealobox">
+              <TwitterOutlined />
+              </a>
+            </li>
+            <li>  <a href="https://www.linkedin.com/company/mealobox">
+              <LinkedinOutlined />
+              </a>
             </li>
             <li>
-              <TwitterOutlined />
+              <a href="https://www.instagram.com/meal_o_box">
+              <InstagramOutlined />
+              </a>
             </li>
           </ul>
         </Col>
