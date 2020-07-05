@@ -1,22 +1,23 @@
 
 
 import React from "react";
-import { Layout, Avatar, Menu, Button, Row, Col, Carousel, Icon } from "antd";
+import { Layout,  Menu, Button, Row, Col } from "antd";
 import {
   FacebookOutlined,
   TwitterOutlined,
   InstagramOutlined,
 } from "@ant-design/icons";
 
-import Title from "antd/lib/typography/Title";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faPlusCircle } from "@fontawesome/free-solid-svg-icons";
+import { faPlusCircle } from "@fortawesome/free-solid-svg-icons";
 import CarouselComponent from "./CarouselComponent";
 //import GoogleMap from "./googleMap";
-import ContactUs from "./ContactUs";
+//import ContactUs from "./ContactUs";
 import Footer from "./footer";
 import "./home.css"
-const { Header, Slider, Content } = Layout;
+import ChegGif from "./ComingSoon";
+const { Header,  } = Layout;
 
 export default function home() {
   return (
@@ -24,7 +25,7 @@ export default function home() {
       <Layout className="layout">
         <Header>
           <div className="logo">
-            <img style={{ borderRadius: "4px" }} src="./images/logo2.jpeg" />
+            <img alt="logo2" style={{ borderRadius: "4px" }} src="./images/logo2.jpeg" />
           </div>
           <Menu
             style={{
@@ -64,10 +65,10 @@ export default function home() {
             <Row style={{ marginLeft: "162px" }}>
               {" "}
               <Col className="gutter-row" span={10}>
-                <img src="./images/leaf.png" style={{ width: "11%" }} />
+                <img  alt="leaf" src="./images/leaf.png" style={{ width: "11%" }} />
               </Col>
               <Col className="gutter-row" span={14}>
-                <img
+                <img  alt="chilli"
                   src="./images/chilli.png"
                   style={{ marginLeft: "227px", width: "7%" }}
                 />
@@ -105,14 +106,14 @@ export default function home() {
                 </Button>
               </Col>
               <Col span={14}>
-                <img
+                <img   alt="leaf"
                   src="./images/leaf.png"
                   style={{ marginLeft: "291px", width: "8%" }}
                 />
               </Col>
             </Row>
             <Col>
-              <img src="./images/tomato.png" style={{ width: "6%" }} />
+              <img  alt="tomato" src="./images/tomato.png" style={{ width: "6%" }} />
             </Col>
             <Row style={{ marginLeft: "140px" }}>
               <Col style={{ marginLeft: "7px" }}>
@@ -128,7 +129,7 @@ export default function home() {
           </Col>
           <Col className="gutter-row Header" span={11}>
             {" "}
-            <img className="headerBg"
+            <img  alt="headerBg" className="headerBg"
               style={{ filter: "brightness(74%)" }}
               src="./images/headerBg.png"
             />
@@ -142,7 +143,7 @@ export default function home() {
         >
           <Col
             span={12}
-            style={{ textAlign: "-webkit-right", marginLeft: "65px" ,textAlign:" -moz-right"}}
+            style={{ textAlign: "-webkit-right", marginLeft: "65px" ,}}
             className="gutter-row"
           >
             <h1 style={{ borderBottom: "2px solid #74cf4e", width: "166px" }}>
@@ -164,7 +165,7 @@ export default function home() {
               }}
             >
               <Col className="gutter-row">
-                <img
+                <img  alt="food"
                   src="./images/food.png"
                   style={{ width: "30%", marginLeft: "35px" }}
                 />
@@ -196,7 +197,7 @@ export default function home() {
               }}
             >
               <Col className="gutter-row">
-                <img
+                <img  alt="boiling"
                   src="./images/boiling.png"
                   style={{ width: "30%", marginLeft: "35px" }}
                 />
@@ -228,7 +229,7 @@ export default function home() {
               }}
             >
               <Col className="gutter-row">
-                <img
+                <img  alt="food-delivery"
                   src="./images/food-delivery.png"
                   style={{ width: "30%", marginLeft: "35px" }}
                 />
@@ -261,7 +262,7 @@ fontSize: "15px"}}> delivery
       <Layout>
         <Row style={{ marginTop: "200px" }}>
           <Col span={12}>
-            <img
+            <img  alt="plate"
               src="./images/plate.jpg"
               style={{
                 width: "676px",
@@ -299,7 +300,7 @@ fontSize: "15px"}}> delivery
                     <Row>
                       <Col>
                         <FontAwesomeIcon
-                         // icon={faPlusCircle}
+                        icon={faPlusCircle}
                           style={{
                             color: "#74cf4e",
                             /* width: 151%; */
@@ -318,7 +319,7 @@ fontSize: "15px"}}> delivery
                     <Row>
                       <Col>
                         <FontAwesomeIcon
-                          //icon={faPlusCircle}
+                          icon={faPlusCircle}
                           style={{
                             color: "#74cf4e",
                             /* width: 151%; */
@@ -338,7 +339,7 @@ fontSize: "15px"}}> delivery
                     <Row>
                       <Col>
                         <FontAwesomeIcon
-                          //icon={faPlusCircle}
+                          icon={faPlusCircle}
                           style={{
                             color: "#74cf4e",
                             /* width: 151%; */
@@ -377,7 +378,7 @@ fontSize: "15px"}}> delivery
                   height: "707px",
                 }}
               >
-                <img className="plansBg" src="./images/thali.png" />
+                <img  alt="thali" className="plansBg" src="./images/thali.png" />
               </Col>
             </Row>
           </Col>
@@ -400,7 +401,7 @@ fontSize: "15px"}}> delivery
               marginTop: "250px",
             }}
           >
-            <img
+            <img  alt="leafBg"
               style={{
                 width: "619px",
                 height: "755px",
@@ -452,7 +453,7 @@ fontSize: "15px"}}> delivery
               }}
             >
               <Col className="gutter-row">
-                <img
+                <img  alt="hotel"
                   src="./images/hotel.png"
                   style={{ width: "51%", marginLeft: "0px" }}
                 />
@@ -477,7 +478,7 @@ fontSize: "15px"}}> delivery
               }}
             >
               <Col className="gutter-row">
-                <img
+                <img  alt="spa"
                   src="./images/spa.png"
                   style={{ width: "51%", marginLeft: "0px" }}
                 />
@@ -502,7 +503,7 @@ fontSize: "15px"}}> delivery
               }}
             >
               <Col className="gutter-row">
-                <img
+                <img  alt="breakfast"
                   src="./images/breakfast.png"
                   style={{ width: "51%", marginLeft: "0px" }}
                 />
@@ -527,7 +528,7 @@ fontSize: "15px"}}> delivery
               }}
             >
               <Col className="gutter-row">
-                <img
+                <img  alt="reception"
                   src="./images/reception.png"
                   style={{ width: "51%", marginLeft: "0px" }}
                 />
@@ -541,7 +542,7 @@ fontSize: "15px"}}> delivery
             <Layout>
               <div className="triangle2"></div>
             </Layout>
-            <img
+            <img  alt="leafBg2"
               src="./images/leafBg2.png"
               style={{
                 zIndex: -1,
@@ -557,7 +558,7 @@ fontSize: "15px"}}> delivery
           </Col> */}
         </Row>
       </Layout>
-      <Layout style={{ position: "relative", height: "813px" }}>
+      <Layout style={{ position: "relative", height: "300px" }}>
         <Row style={{display:"block"}}>
           {/* <Row style={{ width: "-webkit-fill-available" }}>
             <h1 className="plans" style={{ marginLeft: "93px" }}>
@@ -567,8 +568,9 @@ fontSize: "15px"}}> delivery
           {/* <Row className="formBg">
             <ContactUs />
           </Row> */}
+          <ChegGif/>
         </Row>
-        <Row
+        {/* <Row
           style={{
             position: "relative",
             height: "500px",
@@ -579,8 +581,8 @@ fontSize: "15px"}}> delivery
           <h1>Coming soon
 
           </h1>
-          {/* <GoogleMap style={{ position: "absolute" }} /> */}
-        </Row>
+          <GoogleMap style={{ position: "absolute" }} />
+        </Row> */}
       </Layout>
       <Footer />
     </>
