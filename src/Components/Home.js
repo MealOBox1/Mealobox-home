@@ -143,7 +143,7 @@ export default function home() {
         >
           <Col
             span={12}
-            style={{ textAlign: "-webkit-right", marginLeft: "65px" ,textAlign:" -moz-right"}}
+            style={{ textAlign: "-webkit-right", marginLeft: "65px" ,}}
             className="gutter-row"
           >
             <h1 style={{ borderBottom: "2px solid #74cf4e", width: "166px" }}>
