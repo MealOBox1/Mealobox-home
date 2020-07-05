@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Avatar, Menu, Button, Row, Col, Carousel, Icon } from "antd";
+import { Layout,  Row, Col,  } from "antd";
 import { FacebookOutlined, TwitterOutlined } from "@ant-design/icons";
 import style from "./footer.css";
 
@@ -7,6 +7,7 @@ export default function footer() {
   return (
     <Layout className="footer">
       <img
+      
         src="./images/footer.jpg"
         style={{
           position: "absolute",

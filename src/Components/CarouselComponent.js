@@ -31,7 +31,7 @@ export default class CarouselComponent extends Component {
             {/* <h3>1</h3> */}
             <Row>
               <Col className="chefContainer">
-                <img className="chef" src="./images/chef1.jpg" />
+                <img  alt="chef1" className="chef" src="./images/chef1.jpg" />
               </Col>
               <Col style={{ width: "550px" }}>
                 <Row style={{ height: "233px" }}>
@@ -50,7 +50,7 @@ export default class CarouselComponent extends Component {
           <div>
             <Row>
               <Col className="chefContainer">
-                <img className="chef" src="./images/chef2.jpeg" />
+                <img alt="chef" className="chef" src="./images/chef2.jpeg" />
               </Col>
               <Col style={{ width: "550px" }}>
                 <Row style={{ height: "233px" }}>
@@ -69,7 +69,7 @@ export default class CarouselComponent extends Component {
           <div>
             <Row>
               <Col className="chefContainer">
-                <img className="chef" src="./images/chef3.jpg" />
+                {/* <img  alt="chef3" className="chef" src="./images/chef3.jpg" /> */}
               </Col>
               <Col style={{ width: "550px" }}>
                 <Row style={{ height: "233px" }}>
