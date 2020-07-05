@@ -3,8 +3,7 @@ import React from "react";
 import { Layout, Avatar, Menu, Button, Row, Col, Carousel, Icon } from "antd";
 import { FacebookOutlined, TwitterOutlined, LinkedinOutlined, InstagramOutlined } from "@ant-design/icons";
 
-import { Layout,  Row, Col,  } from "antd";
-import { FacebookOutlined, TwitterOutlined } from "@ant-design/icons";
+
 
 import style from "./footer.css";
 
