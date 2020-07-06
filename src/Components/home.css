@@ -183,7 +183,6 @@
   .chef1 {
     height: 150px;
     width: 150px;
-    /* background-image: url("./images/chef3.jpg"); */
     background-position: center;
     border-radius: 47% 53% 53% 47% / 70% 68% 32% 30%;
   }
@@ -191,6 +190,8 @@
     width: 81px;
     height: 84px;
     margin-left: 115px;
+    background-image: url("../Components/chef1.jpeg");
+    background-size: cover;
   }
   
   #ch2 {
@@ -198,12 +199,15 @@
     height: 108px;
     margin-left: -34px;
     margin-top: 4px;
+    background-image: url("../Components/chef2.jpeg");
+    background-size: cover;
   }
   #ch3 {
     width: 81px;
     height: 84px;
     margin-top: 70px;
-  
+    background-image: url("../Components/chef3.jpeg");
+    background-size: cover;
     margin-left: -1px;
   }
   
