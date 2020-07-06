@@ -69,7 +69,7 @@ export default class CarouselComponent extends Component {
           <div>
             <Row>
               <Col className="chefContainer">
-                {/* <img  alt="chef3" className="chef" src="./images/chef3.jpg" /> */}
+                <img  alt="chef3" className="chef" src="./images/chef3.jpg" />
               </Col>
               <Col style={{ width: "550px" }}>
                 <Row style={{ height: "233px" }}>

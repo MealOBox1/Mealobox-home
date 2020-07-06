@@ -102,7 +102,7 @@ export default function home() {
                   shape="round"
                   style={{ backgroundColor: "#74cf4e", border: 0 }}
                 >
-                  Subscribe Food
+                  Coming Soon
                 </Button>
               </Col>
               <Col span={14}>
@@ -143,10 +143,10 @@ export default function home() {
         >
           <Col
             span={12}
-            style={{ textAlign: "-webkit-right", marginLeft: "65px" ,}}
+            style={{ textAlign: "-webkit-right", marginLeft: "65px" ,textAlign: "-moz-right"}}
             className="gutter-row"
           >
-            <h1 style={{ borderBottom: "2px solid #74cf4e", width: "166px" }}>
+            <h1 style={{ borderBottom: "2px solid #74cf4e", width: "166px" ,}}>
               What we Do
             </h1>
           </Col>

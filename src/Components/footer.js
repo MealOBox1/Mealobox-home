@@ -37,7 +37,7 @@ export default function footer() {
           <ul className="list">
             <li> <a href="#">Delhi </a> </li>
             <li> <a href="#">Telephone: +91 96960 62198 </a> </li>
-            <li> <a href="mealobox@gmail.com">E-mail: mealobox@gmail.com</a> </li>
+            <li> <a href="connect.mealobox@gmail.com">E-mail: connect.mealobox@gmail.com</a> </li>
           </ul>
         </Col>
         <Col span={5}>
